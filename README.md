@@ -102,7 +102,7 @@ Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 
 **Hemant Prakash**  
 Integrated B.Tech-M.Tech in Computer Science & Engineering  
-Semester 2  
+Semester 4
 Central University of Jharkhand,Ranchi.
 
 ---
