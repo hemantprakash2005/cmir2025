@@ -2,6 +2,7 @@
 
 A **Natural Language Information Retrieval Project** focused on **Roman transliterated Bengali-English code-mixed text**.  
 The project develops mechanisms to identify and return the **most relevant answers** from informal online community conversations.  
+Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 
 ---
 
@@ -11,6 +12,7 @@ The project develops mechanisms to identify and return the **most relevant answe
 - **Language:** Bengali-English (Roman Script, Code-Mixed)  
 - **Dataset Source:** Facebook Community Groups (e.g., *Bengali in Delhi*)  
 - **Annotation:** Queries, Documents, and Query Relevance Files (QRels)  
+- **Main Output:** Evaluation of system performance using IR metrics  
 
 > ⚠️ Retrieval happens at the **document level**. A document is considered relevant if it contains an answer to the query.  
 
@@ -57,11 +59,25 @@ The project develops mechanisms to identify and return the **most relevant answe
 - **Queries:** Natural language questions in code-mixed Roman script.  
 - **Documents:** Social media posts and replies (Facebook groups, migrant communities).  
 - **QRels:** Query relevance files mapping questions to relevant documents.  
+- **Merged Dataset:**  
+  - `filemerger.ipynb` merges the dataset files into a single **`MergedFile.csv`** for ease of use.  
 
 👉 Dataset represents **real-world challenges**:  
 - Informal language  
 - Roman transliteration of Bengali  
 - Mixed use of Bengali & English  
+
+---
+
+## ⚙️ Implementation Details  
+
+### 🔹 File 1: `filemerger.ipynb`  
+- Merges multiple dataset components into one file.  
+- Produces **`MergedFile.csv`** containing the complete dataset.  
+
+### 🔹 File 2: `newTechnique_Encoding.ipynb`  
+- Implements a model to calculate the **Mean Mapping Score (MMS)**.  
+- Used for performance evaluation and encoding-based analysis.  
 
 ---
 
@@ -85,6 +101,8 @@ The project develops mechanisms to identify and return the **most relevant answe
 ## 👨‍💻 Project done by:  
 
 **Hemant Prakash**  
-- Integrated B.Tech-M.Tech in Computer Sc. & Engineering  
-- Semester 4 
-- Central University of Jharkhand, Ranchi.
+Integrated B.Tech-M.Tech in Computer Science & Engineering  
+Semester 2  
+Central University of Jammu, J&K  
+
+---
