@@ -98,7 +98,7 @@ Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 
 ---
 
-## 👨‍💻 Project done by:  
+## 👨‍💻 Contributor:  
 
 **Hemant Prakash**  
 - Integrated B.Tech-M.Tech in Computer Science & Engineering  
