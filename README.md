@@ -2,17 +2,15 @@
 
 A **Natural Language Information Retrieval Project** focused on **Roman transliterated Bengali-English code-mixed text**.  
 The project develops mechanisms to identify and return the **most relevant answers** from informal online community conversations.  
-Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
+<br>Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 
 ---
 
 ## 📂 Project Information  
 
 - **Type:** Information Retrieval (IR) Project  
-- **Language:** Bengali-English (Roman Script, Code-Mixed)  
-- **Dataset Source:** Facebook Community Groups (e.g., *Bengali in Delhi*)  
-- **Annotation:** Queries, Documents, and Query Relevance Files (QRels)  
-- **Main Output:** Evaluation of system performance using IR metrics  
+- **Language:** Bengali-English (Roman Script, Code-Mixed)   
+- **Main Output:** Evaluation of system performance using IR and determination of Mean MAP scores to check the relavance. 
 
 > ⚠️ Retrieval happens at the **document level**. A document is considered relevant if it contains an answer to the query.  
 
@@ -28,39 +26,6 @@ Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 - Given a **natural language query** in code-mixed text, return the most **relevant documents**.  
 - Provide **document-level retrieval** (not just snippets).  
 
-### 3️⃣ Support Community Information Needs  
-- Improve **access to useful answers** in migrant groups.  
-- Example: During the **COVID-19 pandemic**, helping users quickly find posts about testing centers or government guidelines.  
-
-### 4️⃣ Provide Benchmark Dataset  
-- Curated **queries**, **documents**, and **QRels** for training and evaluation.  
-- Enable participants to test and compare retrieval approaches.  
-
----
-
-## 📊 System Workflow  
-
-1. **Query Submission**  
-   - User enters a question in Bengali-English (Roman script).  
-
-2. **Retrieval**  
-   - System searches across documents collected from social media groups.  
-
-3. **Relevance Check**  
-   - Uses QRels to determine if a document is relevant.  
-
-4. **Output**  
-   - Returns a ranked list of relevant documents as answers.  
-
----
-
-## 🗂️ Dataset Description  
-
-- **Queries:** Natural language questions in code-mixed Roman script.  
-- **Documents:** Social media posts and replies (Facebook groups, migrant communities).  
-- **QRels:** Query relevance files mapping questions to relevant documents.  
-- **Merged Dataset:**  
-  - `filemerger.ipynb` merges the dataset files into a single **`MergedFile.csv`** for ease of use.  
 
 👉 Dataset represents **real-world challenges**:  
 - Informal language  
@@ -77,7 +42,7 @@ Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 
 ### 🔹 File 2: `newTechnique_Encoding.ipynb`  
 - Implements a model to calculate the **Mean Mapping Score (MMS)**.
-- Uses three different models to obtain the MMS: **Cross Encoder**, **Bi-Encoder**, **T5 Model**
+- Uses three different models to obtain the MMS: **`Cross Encoder`**, **`Bi-Encoder`**, **`T5 Model`**
 - Used for performance evaluation and encoding-based analysis.  
 
 ---
