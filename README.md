@@ -76,7 +76,8 @@ Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 - Produces **`MergedFile.csv`** containing the complete dataset.  
 
 ### 🔹 File 2: `newTechnique_Encoding.ipynb`  
-- Implements a model to calculate the **Mean Mapping Score (MMS)**.  
+- Implements a model to calculate the **Mean Mapping Score (MMS)**.
+- Uses three different models to obtain the MMS: **Cross Encoder**, **Bi-Encoder**, **T5 Model**
 - Used for performance evaluation and encoding-based analysis.  
 
 ---
