@@ -101,8 +101,7 @@ Project descriptioin: https://cmir-iitbhu.github.io/cmir/index.html
 ## 👨‍💻 Project done by:  
 
 **Hemant Prakash**  
-Integrated B.Tech-M.Tech in Computer Science & Engineering  
-Semester 4
-Central University of Jharkhand,Ranchi.
+- Integrated B.Tech-M.Tech in Computer Science & Engineering  
+- Semester 4
+- Central University of Jharkhand,Ranchi.
 
----
